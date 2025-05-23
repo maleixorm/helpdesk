@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 $usuarios_app = [
     ['email' => 'contato@marcosaleixo.com.br', 'senha' => '1234'],
     ['email' => 'user@teste.com.br', 'senha' => 'abcd']
@@ -13,6 +15,8 @@ foreach ($usuarios_app as $user) {
 
 if ($usuario_autenticado) {
     echo 'Usuário autenticado.';
+    $_SESSION['autenticado'] = 'SIM';
 } else {
+    $_SESSION['autenticado'] = 'NÃO';
     header("Location: index.php?login=erro");
 }
