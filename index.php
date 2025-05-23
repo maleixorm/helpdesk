@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,6 +48,11 @@
           <? if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
             <div class="alert alert-danger mt-2">
               Usuário ou senha inválidos!
+            </div>
+          <? } ?>
+          <? if(isset($_GET['login']) && $_GET['login'] == 'erroDeSecao') { ?>
+            <div class="alert alert-danger mt-2">
+              Faça login para acessar as páginas protegidas!
             </div>
           <? } ?>
         </div>
