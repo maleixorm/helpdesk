@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,6 +47,11 @@
               </form>
             </div>
           </div>
+          <? if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+            <div class="alert alert-danger mt-2">
+              Usuário ou senha inválidos!
+            </div>
+          <? } ?>
         </div>
     </div>
   </body>
