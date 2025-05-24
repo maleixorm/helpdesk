@@ -1,4 +1,4 @@
-Notebook não liga#Hardware#Tento ligar o notebook e nada acontece.
-Erro de impressão#Impressora#Erro ao tentar imprimir um arquivo.
-Sem Internet#Rede#Não tenho acesso ao Youtube.
-Telefone não funciona#Rede#Estamos sem comunicação no setor.
+1#Notebook não liga#Hardware#Tento ligar o notebook e nada acontece.
+2#Erro de impressão#Impressora#Erro ao tentar imprimir um arquivo.
+3#Sem Internet#Rede#Não tenho acesso ao Youtube.
+4#Telefone não funciona#Rede#Estamos sem comunicação no setor.
